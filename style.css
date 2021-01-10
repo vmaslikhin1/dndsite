@@ -105,12 +105,12 @@
     
     .info {
         display: flex;
-        justify-content: space-around;
+        justify-content: start;
         padding-top: 3%;
     }
     
     .stats {
-        width: 28%;
+        width: 20%;
         height: auto;
         padding: 20px;
         display: flex;
