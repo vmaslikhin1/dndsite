@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="body">
+    <header class="header">Панель гейммастера</header>
+    <div class="all_b">
+        <div class="left">
+
+            <button class="button" id="d20" onclick="d20()">Бросок d20</button>
+            <textarea class="tb" name="Результат" id="output" cols="30" rows="2"></textarea>
+
+            <button class="button" id="d6" onclick="d6()">Бросок d6</button>
+            <textarea class="tb" name="Результат" id="output2" cols="30" rows="2"></textarea>
+
+            <button class="button" id="d4" onclick="d4()">Бросок d4</button>
+            <textarea class="tb" name="Результат" id="output6" cols="30" rows="2"></textarea>
+            <script src="random.js"></script>
+        </div>
+        <div class='right'>
+            <button class="button" id="lvl1" onclick="lvl1()">Выбрать артефакт первого уровня</button>
+            <textarea class="textbox" name="Результат" id="output3" cols="30" rows="2"></textarea>
+
+            <button class="button" id="lvl2" onclick="lvl2()">Выбрать артефакт второго уровня</button>
+            <textarea class="textbox" name="Результат" id="output4" cols="20" rows="2"></textarea>
+
+            <button class="button" id="lvl3" onclick="lvl3()">Выбрать артефакт третьего уровня</button>
+            <textarea class="textbox" name="Результат" id="output5" cols="30" rows="2"></textarea>
+
+            <script src="lvl1art.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

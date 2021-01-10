@@ -1,0 +1,79 @@
+    .body {
+        background-color: #3cc395;
+    }
+    
+    .header {
+        width: 100%;
+        text-align: left;
+        padding: 10px 0 10px 10px;
+        padding-left: 2%;
+        background-color: lightcoral;
+        font-size: 48px;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 500;
+    }
+    
+    .button {
+        display: inline-block;
+        margin: 10px 20px;
+        color: #fff;
+        font-family: BebasNeue;
+        font-size: 210%;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: transparent;
+        border-radius: 13px;
+        border: 3px solid #fff;
+        padding: 6px 20px;
+        opacity: 1;
+        transition: .15ms ease-in-out;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 1000;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+        transition: 15ms ease-in-out;
+    }
+    
+    .all_b {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .left {
+        width: 28%;
+        height: auto;
+        min-height: 800px;
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .right {
+        width: 72%;
+        height: auto;
+        min-height: 800px;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-top: 20px;
+    }
+    
+    .textbox {
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+    
+    .tb {
+        width: 50%;
+        align-self: center;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18;
+        align-items: center;
+        font-family: 'Yusei Magic', sans-serif;
+    }
