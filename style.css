@@ -44,7 +44,6 @@
     .left {
         width: 28%;
         height: auto;
-        min-height: 800px;
         padding: 20px;
         display: flex;
         flex-flow: column nowrap;
@@ -53,7 +52,6 @@
     .right {
         width: 72%;
         height: auto;
-        min-height: 800px;
         display: flex;
         flex-flow: column nowrap;
         padding-top: 20px;
@@ -76,4 +74,76 @@
         font-size: 18;
         align-items: center;
         font-family: 'Yusei Magic', sans-serif;
+    }
+    
+    .image {
+        display: flex;
+        width: 40%;
+        height: 50%;
+        padding-left: 3%;
+        max-height: 450px;
+        max-width: 300px;
+        padding-top: 2%;
+    }
+    
+    .right_2 {
+        width: 72%;
+        max-width: 400px;
+        height: auto;
+        display: flex;
+        flex-flow: row;
+        padding-top: 20px;
+    }
+    
+    .desc {
+        font-family: 'Amatic SC', cursive;
+        font-size: 28;
+        padding-top: 10%;
+        padding-bottom: 0%;
+        padding-left: 10%;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3%;
+    }
+    
+    .stats {
+        width: 28%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: 'Amatic SC', cursive;
+        font-size: 28;
+        padding-top: 3%;
+    }
+    
+    .art {
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .art_desc {
+        border-radius: 10px;
+        font-family: 'Amatic SC', cursive;
+        font-size: 28;
+    }
+    
+    .left_2 {
+        width: 45%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        max-width: 300px;
+    }
+    
+    p {
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+        font-size: 16;
+        align-self: center;
     }
