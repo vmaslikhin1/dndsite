@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header class="header">Дворф</header>
+    <div class="all_b">
+        <div class="left_2">
+
+            <button class="button" id="d20" onclick="d20()">Бросок d20</button>
+            <textarea class="tb" name="Результат" id="output" cols="30" rows="2"></textarea>
+
+            <button class="button" id="d6" onclick="d6()">Бросок d6</button>
+            <textarea class="tb" name="Результат" id="output2" cols="30" rows="2"></textarea>
+
+            <button class="button" id="d4" onclick="d4()">Бросок d4</button>
+            <textarea class="tb" name="Результат" id="output6" cols="30" rows="2"></textarea>
+            <script src="../scripts/random.js"></script>
+        </div>
+        <div class="right_2">
+
+            <div>
+                <div class="desc">Каменная кожа - позволяет получить 1d4 к защите на 1 ход</div>
+
+                <div class="desc">Взор каменщика - позволяет обнаруживать потайные ходы в подземельях (1d20>10)</div>
+
+
+            </div>>
+        </div>
+        <img class="image" src="../images/dwarf.png" alt="Дворф">
+    </div>
+    <script src="current_art.js"></script>
+    <div class="info">
+        <div class="stats">
+            Сила: +2
+            <br> Ловкость: -1
+            <br> Интеллект: +1
+            <br> Харизма: +1
+            <br> Удача: 0
+        </div>
+        <div class="right_2">
+            <div class="art">
+                <p>Артефакт 1</p>
+                <textarea class="art_desc" name="art_1" id="d_a1" cols="30" rows="5"></textarea>
+            </div>
+            <div class="art">
+                <p>Артефакт 2</p><textarea class="art_desc" name="art_2" id="d_a2" cols="30" rows="5"></textarea></div>
+            <div class="art">
+                <p>Артефакт 3</p><textarea class="art_desc" name="art_3" id="d_a3" cols="30" rows="5"></textarea></div>
+            <button class="button_2" onclick="d_upd()">Обновить</button>
+        </div>>
+    </div>
+</body>
+
+</html>
